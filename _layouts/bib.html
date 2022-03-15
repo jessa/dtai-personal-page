@@ -10,9 +10,11 @@
 {% endif %}
 
 <div id="{{entry.key}}">
+<---
   {% if entry.type == "thesis" %}
     {{reference}}
   {% else %}
+--->
     <span class="title">{{entry.title}}</span>
     <span class="author">
       {% for author in entry.author_array %}
@@ -53,12 +55,16 @@
       <em>{{entry.journal}}</em>
     {% elsif entry.type == "inproceedings" %}
       <em>In {{entry.booktitle}}</em>
+    {% elsif entry.type == "misc" %}
+       <em>{{entry.journal}}</em>
     {% endif %}
     {% if entry.year %}
       {{entry.year}}
     {% endif %}
     </span>
+<---
   {% endif %}
+--->
 
   <span class="links">
   [<a class="bibtex">Bib</a>]
