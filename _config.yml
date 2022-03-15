@@ -5,7 +5,7 @@ first_name: Jessa
 last_name: Bekker
 email: jessa.bekker@kuleuven.be
 description: > # this means to ignore newlines until "url:"
-  KU Leuven Postdoctoral researcher at the DTAI research group.
+  KU Leuven research manager at the DTAI research group.
 footer_text: > # Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   <a href="https://dtai.cs.kuleuven.be/" target="_blank">DTAI</a>.
   <a href="https://www.kuleuven.be/kuleuven/" target="_blank">KU Leuven</a>.
