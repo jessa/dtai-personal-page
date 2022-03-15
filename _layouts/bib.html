@@ -10,11 +10,11 @@
 {% endif %}
 
 <div id="{{entry.key}}">
-<---
+{% comment %}
   {% if entry.type == "thesis" %}
     {{reference}}
   {% else %}
---->
+{% endcomment %}
     <span class="title">{{entry.title}}</span>
     <span class="author">
       {% for author in entry.author_array %}
@@ -62,9 +62,9 @@
       {{entry.year}}
     {% endif %}
     </span>
-<---
+{% comment %}
   {% endif %}
---->
+{% endcomment %}
 
   <span class="links">
   [<a class="bibtex">Bib</a>]
