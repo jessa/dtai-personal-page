@@ -1,6 +1,28 @@
 ---
 ---
 
+@InProceedings{schouterden2022aaai,
+  author = "Schouterden, Jonas and Bekker, Jessa and Davis, Jesse and Blockeel, Hendrik",
+  title = "Unifying Knowledge Base Completion with PU Learning to Mitigate the Observation Bias",
+  booktitle = "{P}roceedings of the 36th {AAAI} {C}onference on {A}rtificial {I}ntelligence",
+  month = February,
+  year = "2022",
+  pdf = "schouterden2022aaai.pdf",
+  url = "https://lirias.kuleuven.be/3654887",
+  abstract = "Methods for Knowledge Base Completion (KBC) reason about a knowledge base (KB) in order to derive new facts that should be included in the KB. This is challenging for two reasons. First, KBs only contain positive examples. This complicates model evaluation which needs both positive and negative examples. Second, those facts that were selected to be included in the knowledge base, are most likely not an i.i.d. sample of the true facts, due to the way knowledge bases are constructed. In this paper, we focus on rule-based approaches, which traditionally address the first challenge by making assumptions that enable identifying negative examples, which in turn makes it possible to compute a rule's confidence or precision. However, they largely ignore the second challenge, which means that their estimates of a rule's confidence can be biased. This paper approaches rule-based KBC through the lens of PU learning, which can cope with both challenges. We make three contributions. (1) We provide a unifying view that formalizes the relationship between multiple existing confidences measures based on (i) what assumption they make about and (ii) how their accuracy depends on the selection mechanism. (2) We introduce two new confidence measures that can mitigate known biases by using propensity scores that quantify how likely a fact is to be included the KB. (3) We show through theoretical and empirical analysis that taking the bias into account improves the confidence estimates, even when the propensity scores are not known exactly.",
+}
+
+@InProceedings{cornille2022icassp,
+  author = "Cornille, Tobias and Wang, Fengna and Bekker, Jessa",
+  title = "Interactive Multi-level Prosody Control for Expressive Speech Synthesis",
+  booktitle = "Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing"
+  month = May,
+  year = "2022",
+  pdf = "cornille2022icassp.pdf",
+  url = "https://lirias.kuleuven.be/3704076",
+  abstract = "Recent neural-based text-to-speech (TTS) models are able to produce highly natural speech. To synthesize expressive speech, the prosody of the speech has to be modeled, and predicted/controlled during synthesis. However, intuitive control over prosody remains elusive. Some techniques only allow control over the global style of the speech and do not allow fine-grained adjustments. Other techniques create fine-grained prosody embeddings, but these are difficult to manipulate to obtain a desired speaking style. We thus present ConEx, a novel model for expressive speech synthesis, which can produce speech in a certain speaking style, while also allowing local adjustments to the prosody of the generated speech. The model builds upon the non-autoregressive architecture of FastSpeech and includes a reference encoder to learn global prosody embeddings, and a vector quantized variational autoencoder to create fine-grained prosody embeddings. To realize prosody manipulation, a new interactive method is proposed. Experiments on two datasets show that the model enables multi-level prosody control.",
+}
+
 
 @article{bekker2020mlj,
   author = "Bekker, Jessa and Davis, Jesse",
